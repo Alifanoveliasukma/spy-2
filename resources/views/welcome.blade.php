@@ -46,7 +46,7 @@
                           <div class="clipath"></div>
                       </div>
                       <div class="buttonWrapper">
-                        <a href="#" class="nav-link">Get Started</a>
+                        <a href="#" class="nav-link"><img class="icon-dompet" src="{{ asset('icon/icon-dompet.png') }}">Donasi</a>
                       </div>
                   </div>
 
@@ -59,7 +59,7 @@
             <div class='flex-1'>
               <div class='group-1'>
                 <div class='text-1'>
-                  <h1>Membuat <span>hidup</span> seseorang menjadi <span>lebih baik</span> dengan memberikan milikmu.</h1>
+                  Membuat <span>hidup</span> seseorang menjadi <span>lebih baik</span> dengan memberikan milikmu.
                 </div>
                 <div class='text-2'>
                 “Aku dan orang yang menanggung anak yatim (kedudukannya) di surga seperti ini”, kemudian beliau shallallahu 'alaihi wa sallam mengisyaratkan jari telunjuk dan jari tengah beliau shallallahu 'alaihi wa sallam, serta agak merenggangkan keduanya.” (HR. Bukhari)
@@ -69,7 +69,7 @@
                     <p class='btn-text'>Donasi Sekarang</p>
                   </div>
                   <div class='button-2'>
-                    <img src="{{ asset('spy/image/4.png') }}"><span class='text-btn'>Lihat Video</span>
+                    <img class="img-empat" src="{{ asset('spy/image/4.png') }}"><span class='text-btn'>Lihat Video</span>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,6 @@
                   <h3 class='text-2'>Rangkaian Kegiatan SPY</h3>
                 </div>
                 <div class='container'>
-                  <div class='card-flex'>
                     <div class='card-1'>
                         <div class="container-card">
                             <img src="{{ asset('spy/image/7.png') }}">
@@ -126,6 +125,7 @@
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
                             </div>
                             <a class="btn" href="#" >Lihat Detail</a>
+                            <div class="button"><h5 >Santunan</h5></div>
                         </div>
                     </div>
                     <div class='card-1'>
@@ -136,50 +136,64 @@
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
                             </div>
                             <a class="btn" href="#" >Lihat Detail</a>
+                            <div class="button"><h5 >Santunan</h5></div>
                         </div>
-                    </div>
+                    </div> 
                     <div class='card-1'>
-                        <div class="container-card">
-                            <img src="{{ asset('spy/image/9.png') }}">
-                            <div class="text">
-                                <h5>Kegiatan Santunan Bulanan SPY Ke-55</h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
-                            </div>
-                            <a class="btn" href="#" >Lihat Detail</a>
-                        </div>
-                    </div>
+                      <div class="container-card">
+                          <img src="{{ asset('spy/image/8.png') }}">
+                          <div class="text">
+                              <h5>Kegiatan Santunan Bulanan SPY Ke-55</h5>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
+                          </div>
+                          <a class="btn" href="#" >Lihat Detail</a>
+                          <div class="button"><h5 >Santunan</h5></div>
+                      </div>
+                    </div> 
                     <div class='card-1'>
-                        <div class="container-card">
-                            <img src="{{ asset('spy/image/7.png') }}">
-                            <div class="text">
-                                <h5>Kegiatan Santunan Bulanan SPY Ke-55</h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
-                            </div>
-                            <a class="btn" href="#" >Lihat Detail</a>
-                        </div>
-                    </div>
-                    <div class='card-1'>
-                        <div class="container-card">
-                            <img src="{{ asset('spy/image/7.png') }}">
-                            <div class="text">
-                                <h5>Kegiatan Santunan Bulanan SPY Ke-55</h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
-                            </div>
-                            <a class="btn" href="#" >Lihat Detail</a>
-                        </div>
-                    </div>                 
-                  </div>
+                      <div class="container-card">
+                          <img src="{{ asset('spy/image/8.png') }}">
+                          <div class="text">
+                              <h5>Kegiatan Santunan Bulanan SPY Ke-55</h5>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione laborum ipsam aut sequi</p> 
+                          </div>
+                          <a class="btn" href="#" >Lihat Detail</a>
+                          <div class="button"><h5 >Santunan</h5></div>
+                      </div>
+                    </div>                        
                 </div>
               </div>
-        
-                <div class='section-faq' >
+              <div class='section-faq' >
                   <div class='flex-content' >
                     <div class='desc'>
-                        <h4></h4>
-                        <h3></h3>
+                        <h4>Kenali Kami</h4>
+                        <h3>Pertanyaan yang Sering Diajukan</h3>
                     </div>
                     <div class='accordion'>
-  
+                      <div class="contentBx">
+                        <div class="label">How Lorem Work ?</div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, aliquam?</p>
+                        </div>
+                        <hr size="3">
+                      </div>
+                    
+                      <div class="contentBx">
+                        <div class="label">How Lorem Work ?</div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, aliquam?</p>
+                        </div>
+                        <hr size="4">
+                      </div>
+                    
+                      <div class="contentBx">
+                        <div class="label">How Lorem Work ?</div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, aliquam?</p>
+                        </div>
+                        <hr size="4">
+                      </div>
+                    
                     </div>
                   </div>
                 </div>
@@ -195,9 +209,19 @@
                 </div>
               </div>
            
-          </div>
+        </div>
 
         {{-- javascript --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+          const accordion = document.getElementsByClassName
+          ('contentBx');
+
+          for (i = 0; i<accordion.length; i++ ){
+            accordion[i].addEventListener('click', function(){
+              this.classList.toggle('active')
+            })
+          }
+        </script>
     </body>
 </html>
