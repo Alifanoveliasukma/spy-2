@@ -80,22 +80,22 @@
             <div class='main'>
               <div class='flex-2'>
                 <img src="{{ asset('spy/image/3.png') }}">
-                <div class='about'>
-                  <h4>Tentang Kami</h4>
-                  <h3>Apa Sih Sahabat Peduli Yatim Tuh ?</h3>
-                  <p class='p-1'>Sahabat Peduli Yatim adalah sebuah komunitas sosial agama, dengan konsep mengadakan santunan dari masjid ke masjid setiap bulannya.</p>
-                  <div class='flex-3'>
-                    <div class='satu'>
-                      <p class='angka-satu'>5</p><p class='t-satu'>Tahun Berdiri</p>
-                    </div>
-                    <div class='dua'>
-                      <p class='angka-dua'>40</p><p class='t-dua'>Orang Volunteer SPY</p>
-                    </div>
-                    <div class='tiga'>
-                      <p class='angka-tiga'>56</p><p class='t-tiga'>Kegiatan Terencana</p>
-                    </div>
+              <div class='about'>
+                <h4>Tentang Kami</h4>
+                <h3>Apa Sih Sahabat Peduli Yatim Tuh ?</h3>
+                <p class='p-1'>Sahabat Peduli Yatim adalah sebuah komunitas sosial agama, dengan konsep mengadakan santunan dari masjid ke masjid setiap bulannya.</p>
+                <div class='flex-3'>
+                  <div class='satu'>
+                    <p class='angka-satu'>5</p><p class='t-satu'>Tahun Berdiri</p>
+                  </div>
+                  <div class='dua'>
+                    <p class='angka-dua'>40</p><p class='t-dua'>Orang Volunteer SPY</p>
+                  </div>
+                  <div class='tiga'>
+                    <p class='angka-tiga'>56</p><p class='t-tiga'>Kegiatan Terencana</p>
                   </div>
                 </div>
+              </div>
               </div>
               <div class='section-bidang'>
                   <h4 class='text-satu'>Bergerak Dibidang</h4>
@@ -171,7 +171,7 @@
                     </div>
                     <div class='accordion'>
                       <div class="contentBx">
-                        <div class="label">How Lorem Work ?</div>
+                        <div class="label">How Lorem Work ?  <img src="{{ asset('icon/icon-panah.png') }}"></div>
                         <div class="content">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, aliquam?</p>
                         </div>
@@ -179,7 +179,7 @@
                       </div>
                     
                       <div class="contentBx">
-                        <div class="label">How Lorem Work ?</div>
+                        <div class="label">How Lorem Work ?  <img src="{{ asset('icon/icon-panah.png') }}"></div>
                         <div class="content">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, aliquam?</p>
                         </div>
@@ -187,7 +187,7 @@
                       </div>
                     
                       <div class="contentBx">
-                        <div class="label">How Lorem Work ?</div>
+                        <div class="label">How Lorem Work ?  <img src="{{ asset('icon/icon-panah.png') }}"></div>
                         <div class="content">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, aliquam?</p>
                         </div>
@@ -196,19 +196,18 @@
                     
                     </div>
                   </div>
-                </div>
-           
-            
-            </div>
-              <div class='section-footer'>
-                <div class='icon'>
-  
-                </div>
-                <div class='text'>
-  
-                </div>
               </div>
-           
+            </div>
+            <div class='section-footer'>
+              <div class='icon'>
+                <img src="{{ asset('icon/icon-elips.png') }}"><img class="icon-two" src="{{ asset('icon/icon-ig.png') }}">
+                <img src="{{ asset('icon/icon-elips.png') }}"><img class="icon-two" src="{{ asset('icon/icon-email.png') }}">
+                <img src="{{ asset('icon/icon-elips.png') }}"><img class="icon-two" src="{{ asset('icon/icon-telp.png') }}">
+              </div>
+              <div class='text'>
+                Jl. Pancasan Gg. Dahlan Sah No.63, RT.01/RW.06, Pasir Jaya, Kec. Bogor Barat, Bogor, Indonesia, 16119
+              </div>
+            </div>
         </div>
 
         {{-- javascript --}}
